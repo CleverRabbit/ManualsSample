@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>About:</strong>
+  <%= @router.about %>
+</p>
+
+<p>
+  <strong>About lnk:</strong>
+  <%= @router.about_lnk %>
+</p>
+
+<p>
+  <strong>Connection:</strong>
+  <%= @router.connection %>
+</p>
+
+<p>
+  <strong>Connection lnk:</strong>
+  <%= @router.connection_lnk %>
+</p>
+
+<%= link_to 'Edit', edit_router_path(@router) %> |
+<%= link_to 'Back', routers_path %>
